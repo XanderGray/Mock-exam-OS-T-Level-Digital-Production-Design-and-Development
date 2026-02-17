@@ -1,0 +1,30 @@
+/* Organises the Electric Car iamges */
+.ElectronicCars {
+  width: 700px; 
+  margin: 30px auto;
+}
+
+
+#ElectricCarCarousel .item img {
+  height: 400px; 
+  width: 100%;
+  object-fit: cover;
+}
+
+.ElectronicChargers {
+  width: 700px; 
+  margin: 30px auto;
+}
+
+/* Organises the Electric Charger iamges */
+#ElectricChargerCarousel .item img {
+  height: 400px; 
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Sets the background image to the designated background image */
+body {
+    background-image: url("../Images/BackgroundImage.jpg");
+    background-size: cover;
+}

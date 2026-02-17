@@ -1,0 +1,49 @@
+
+<link rel="stylesheet" href="../Styles/Apointment.css">
+<link rel="stylesheet" href="../Styles/NavigationBar.css">
+
+<ul>
+        <!--Navigation bar-->
+        <li><a href="MainPage.html">
+            <img src="../Images/RoslaTechnologiesLogo.png" alt="Clickable Image">
+        </a></li>
+        <li><a href="BrowseStock.html" style="font-size: 41px">Browse catalogue</a></li>
+        <li><a href="ScheduleApointments.html" style="font-size: 41px">Schedule appointment</a></li>
+        <li><a href="ScheduleInstillations.html" style="font-size: 41px">Schedule installation</a></li>       
+    </ul>
+
+    <!--Function to book installation appointments-->
+<div class="form-basin">
+  <form action="/BookInstallation" method="POST">
+    <!--Full Name Label-->
+    <label for="fullName">Full Name:</label>
+    <input type="text" id="fullName" name="fullName" placeholder="Your Full Name">
+
+    <!--Email Label-->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Your Email">
+
+    <!--Phone Number Label-->
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+
+    <!--Full Name Label-->
+    <label for="appointmentDate">Appointment Date:</label>
+    <input type="date" id="appointmentDate" name="appointmentDate">
+
+        <!--Full Name Label-->
+    <label for="appointmentTime">Appointment Time:</label>
+    <input type="time" id="appointmentTime" name="appointmentTime">
+    <!--Full Name Label-->
+    <label for="serviceType">Type of Service:</label>
+    <select id="serviceType" name="serviceType">
+      <!--Service type options-->
+      <option value="">Select Service</option>
+      <option value="1/2 Set up">1/2 Set up</option>
+      <option value="1/4 Set up">1/4 Set up</option>
+      <option value="Full panel set up">Full panel set up</option>
+    </select>
+    <!--Submit button-->
+    <button type="submit">Book Installation</button>
+  </form>
+</div>

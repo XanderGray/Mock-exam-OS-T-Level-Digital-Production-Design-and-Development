@@ -1,0 +1,43 @@
+
+<link rel="stylesheet" href="../Styles/Apointment.css">
+<link rel="stylesheet" href="../Styles/NavigationBar.css">
+
+<ul>
+        <!--Navigation bar-->
+        <li><a href="MainPage.html">
+            <img src="../Images/RoslaTechnologiesLogo.png" alt="Clickable Image">
+        </a></li>
+        <li><a href="BrowseStock.html" style="font-size: 41px">Browse catalogue</a></li>
+        <li><a href="ScheduleApointments.html" style="font-size: 41px">Schedule appointment</a></li>
+        <li><a href="ScheduleInstillations.html" style="font-size: 41px">Schedule installation</a></li>       
+    </ul>
+
+
+<div class="form-basin">
+  <!--Book Apointments functions-->
+  <form action="/BookAppointment" method="POST"> 
+
+   <!--Full Name Label-->   
+    <label for="fullName">Full Name:</label>
+    <input type="text" id="fullName" name="fullName" placeholder="Your Full Name">
+
+       <!--Email Label-->  
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Your Email">
+
+       <!--Phone Number Label-->  
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+
+     <!--Apoitnment date Label-->  
+    <label for="appointmentDate">Appointment Date:</label>
+    <input type="date" id="appointmentDate" name="appointmentDate">
+
+      <!--Apoitnment time Label-->
+    <label for="appointmentTime">Appointment Time:</label>
+    <input type="time" id="appointmentTime" name="appointmentTime">
+
+     <!--Submit button label-->  
+    <button type="submit">Book Appointment</button>
+  </form>
+</div>

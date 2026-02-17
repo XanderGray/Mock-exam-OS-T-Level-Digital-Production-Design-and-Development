@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <!--Stylesheets and scripts for the main page -->
+  <link rel="stylesheet" href="../Styles/NavigationBar.css">
+  <link rel="stylesheet" href="../Styles/MainPage.css">
+  <link rel="stylesheet" href="../Styles/CarbonCalculator.css">
+  <script src="../JavaScript/CarbonCalculatorScript.js"></script>
+  
+  <title>HomePage</title>
+
+
+    <!--Bootstrap positioning tags-->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- JQuery and Bootstrap scripts for the carousel -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+
+<ul>
+        <!--Navigation bar-->
+        <li><a href="MainPage.html">
+            <img src="../Images/RoslaTechnologiesLogo.png" alt="Clickable Image">
+        </a></li>
+        <li><a href="BrowseStock.html" style="font-size: 41px">Browse catalogue</a></li>
+        <li><a href="ScheduleApointments.html" style="font-size: 41px">Schedule appointment</a></li>
+        <li><a href="ScheduleInstillations.html" style="font-size: 41px">Schedule installation</a></li>       
+    </ul>
+    <body>
+        <!--Main text-->
+      <div class="MainText">
+        <h1 style="font-size: 90px">Founded by our innovative CEO Rosla</h1>
+      </div>
+      <div class="RoslaImage column">
+        <img src="../Images/Rosla.png" class="Rosla Image" alt="Rosla" width="300" height="332">
+      </div>
+
+       <!--Rolsa Slogan-->
+      <div class="Slogan">
+        <h2 style="font-size: 95px;">We dream to keep you</h2>
+      </div>
+
+        <!--Green text that says green-->
+      <div class="GreenText">
+        <h3 style="font-size: 90px;color: green">Green</h3>
+      </div>
+
+      <!--What we do section-->
+      <div class="WhatWeDoSection">
+          <div class="WhatWeDo">
+              <h4 style="font-size: 90px">What do WE do for you?</h4>
+              <p style="font-size: 50px">
+                  We are proud to offer you installations and consultations about solar energy solutions,
+                  we take pride in our top of the range eletronic cars and allow for you to compare them to other cars on the market
+              </p>
+          </div>
+
+          <div id="MainPageCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                  <li data-target="#MainPageCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#MainPageCarousel" data-slide-to="1"></li>
+                  <li data-target="#MainPageCarousel" data-slide-to="2"></li>
+              </ol>
+
+                <!--Main Carousel-->
+              <div class="carousel-inner">
+                <!--Carousel Imaages-->
+                  <div class="item active">
+                      <img src="../Images/MainPageCarousel/Counselling.jpg" class="img-responsive" style="width:100%">
+                  </div>
+                  <div class="item">
+                      <img src="../Images/MainPageCarousel/ElectricCar.avif" class="img-responsive" style="width:100%">
+                  </div>
+                  <div class="item">
+                      <img src="../Images/MainPageCarousel/SolarPannelnstaller.jpg" class="img-responsive" style="width:100%">
+                  </div>
+              </div>
+
+            <!--Left and right buttons-->
+              <a class="left carousel-control" href="#MainPageCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#MainPageCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+          </div>
+      </div>
+
+        <!--Carbon Calculator section-->
+        <div class="container">
+            <h5>Try our carbon calculator</h5>
+            <input type="text" id="distance" class="input-field" placeholder="Distance Travelled (km)">
+            <input type="text" id="emission" class="input-field" placeholder="Emission Factor (g/km)">
+            <button id="calculate" class="calculate-button">Calculate</button>
+            <p id="carbon-score" class="carbon-score">Carbon Score: </p>
+        </div>
+    </body>
+</html>

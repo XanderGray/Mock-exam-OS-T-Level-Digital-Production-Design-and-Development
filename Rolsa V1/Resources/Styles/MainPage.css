@@ -1,0 +1,54 @@
+/* Organisases the main text section of the main page */
+.MainText {
+        float: left;
+        width: 40%;
+        background-color: rgb(255, 255, 255, 0.473);
+        margin-top: -15px;
+    }
+
+    /*Organises the slogan section of the main page*/
+.Slogan {
+        float: left;
+        width: 40%;
+        background-color: white;
+        margin-top: -15px
+    }
+
+/* Configures the Rosla image */
+.Rosla {
+        float: left;
+        width: 20%;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.473);
+        margin-top: -15px;
+    }
+
+/* Organises the green text on the main page */
+.GreenText {
+        float: left;
+        width: 40%;
+        background-color: white;
+        margin-top: -20px;
+    }
+
+/* Organises the What We Do settings */
+.WhatWeDo {
+        float: left;
+        width: 70%;
+        bottom: 0;
+    }
+
+/* Organises the Carousel settings */
+#MainPageCarousel {
+        float: left;
+        width: 30%;
+        bottom: 0;
+    }
+
+/* Sets the background image to the designated background image */
+body {
+    background-image: url("../Images/BackgroundImage.jpg");
+    background-size: cover;
+}
+
+

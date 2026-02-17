@@ -1,0 +1,68 @@
+    /* Global formart styles */
+    .form-basin {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        padding: 40px 20px 40px 20px;
+        font-size: 16px;
+        font-weight: 400;
+        background-color: transparent;
+    }
+
+    /* Form layout configuration */
+    .form-basin form {
+        margin: auto;
+        max-width: 600px;
+    }
+
+    /* Labels for the text boxes */
+    .form-basin label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    /* Styling for when the user selects the text boxes */
+    .form-basin input,
+    .form-basin textarea,
+    .form-basin select {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 16px;
+        font-family: inherit;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        transition: border-color 0.3s;
+    }
+
+    /* Focus styles for form inputs */
+    .form-basin input:focus,
+    .form-basin textarea:focus,
+    .form-basin select:focus {
+        border-color: #007bff;
+        outline: none;
+    }
+
+    /* Styles the submit button */
+    .form-basin button {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: 500;
+        letter-spacing: 1px;
+        transition: background-color 0.3s;
+    }
+
+    /* Makes button brighter on hover */
+    .form-basin button:hover {
+        filter: brightness(85%);
+    }
+
+    /* Placeholder text made transparent */
+    .form-basin ::placeholder {
+        font-family: inherit;
+        opacity: 0.7;
+    }
+
+ 

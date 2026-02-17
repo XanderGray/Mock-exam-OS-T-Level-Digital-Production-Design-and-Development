@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <link rel="stylesheet" href="../../../Styles/StorePages.css">
+</head>
+
+<body>
+    <div class="ProductPageContainer">
+        <div class="ProductImageSection">
+            <img src="../../../Images/Electric Cars/RolsaCar2.png" alt="Rolsa Car 2" width="500" height="400">
+        </div>
+        <div class="ProductDetailsSection">
+            <h1 class="ProductTitle">Rolsa Electric Car Model 2</h1>
+            <p class="ProductPrice">£5,000</p>
+            <p class="ProductDescription">
+                The Rolsa Electric Car Model 2 offers a perfect blend of performance and efficiency.
+                With a range of 300 miles on a single charge and a top speed of 150 mph, this car is designed for both city driving and long-distance travel.
+                Enjoy advanced features such as autonomous driving capabilities, a state-of-the-art infotainment system, and luxurious interiors.
+            </p>
+                <form action="/pay" method="POST">
+                    <label>Card Number</label><br>
+                    <input type="text" name="card" placeholder="16 digits" required><br><br>
+
+                    <label>Expiry Date</label><br>
+                    <input type="text" name="expiry" placeholder="MM/YY" required><br><br>
+
+                    <label>CVC</label><br>
+                    <input type="text" name="cvc" placeholder="123" required><br><br>
+
+                    <button type="submit">Pay Now</button>
+                </form>
+
+        </div>
+    </div>

@@ -1,0 +1,95 @@
+/* Resets default styles and sets global font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', monospace;
+}
+
+/* Styles the body to center the container */
+body {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Styles the main container */
+.Container {
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #000000;
+  padding: 40px 30px;
+  background-color: #FFFFFF;
+  box-shadow: 8px 8px 0px #000000;
+  position: relative;
+  border-radius: 12px;
+}
+
+/* Adds a decorative border effect to the container */
+.Container::before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  right: -6px;
+  bottom: -6px;
+  border: 1px solid #000000;
+  z-index: -1;
+  border-radius: 12px;
+}
+
+/* Styles the heading */
+h1 {
+  color: #000000;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Styles the main inputs */
+.input-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* Styles the labels and inputs */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* Styles the input fields */
+input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid #000000;
+  background-color: #FFFFFF;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s;
+}
+
+/* Adds focus effect to input fields */
+input:focus {
+  box-shadow: 4px 4px 0px #000000;
+}
+
+/* Styles the submit button */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #FF5E5B;
+  color: #FFFFFF;
+  border: 2px solid #000000;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.3s;
+}

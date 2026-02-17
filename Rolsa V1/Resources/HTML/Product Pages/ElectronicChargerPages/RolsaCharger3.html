@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <link rel="stylesheet" href="../../../Styles/StorePages.css">
+</head>
+
+<body>
+    <div class="ProductPageContainer">
+        <div class="ProductImageSection">
+            <img src="../../../Images/Electric Chargers/RolsaCharger3.png" alt="Rolsa Charger 3" width="500" height="400">
+        </div>
+        <div class="ProductDetailsSection">
+            <h1 class="ProductTitle">Rolsa Electric Charger Model 3</h1>
+            <p class="ProductPrice">£5,000</p>
+            <p class="ProductDescription">
+                The Rolsa Electric Charger Model 3 offers a perfect blend of performance and efficiency..
+            </p>
+                <form action="/pay" method="POST">
+                    <label>Card Number</label><br>
+                    <input type="text" name="card" placeholder="16 digits" required><br><br>
+
+                    <label>Expiry Date</label><br>
+                    <input type="text" name="expiry" placeholder="MM/YY" required><br><br>
+
+                    <label>CVC</label><br>
+                    <input type="text" name="cvc" placeholder="123" required><br><br>
+
+                    <button type="submit">Pay Now</button>
+                </form>
+
+        </div>
+    </div>

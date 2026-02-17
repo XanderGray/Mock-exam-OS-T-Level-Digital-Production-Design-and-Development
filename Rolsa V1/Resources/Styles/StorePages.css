@@ -1,0 +1,14 @@
+/* Allows for the whole page to be completed centered and take up no more than half the page */
+.ProductPageContainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+}
+
+/* Sets the background image to the designated background image */
+body {
+    background-image: url("../Images/BackgroundImage.jpg");
+    background-size: cover;
+}

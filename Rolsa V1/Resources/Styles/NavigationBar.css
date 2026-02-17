@@ -1,0 +1,26 @@
+/* Sets up the green bar at the top of the pages with using this navbar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #0d5717;
+  display: flex;
+}
+
+/* Inserts all of the text into the navbar */
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: #000000 solid 1px;
+  width: 100%;
+}
+
+/* Changes the background colour of the navbar when hovering over the text */
+ul li a:hover {
+  background-color: #000000;
+}
+
+
+
